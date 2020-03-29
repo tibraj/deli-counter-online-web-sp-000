@@ -16,6 +16,7 @@ def line(array)
     else
       puts "Currently serving #{array[0]}."
       array.shift
+    end
   end
 
 def take_a_number(array, name)
