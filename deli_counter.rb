@@ -8,6 +8,8 @@ def line(array)
       loop do
         counter += 1
         puts "The line is currently: #{counter}. #{array[counter]}"
+        if counter > array.length
+          break
       end
     end
   end
