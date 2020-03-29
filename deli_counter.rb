@@ -14,3 +14,8 @@ def line(array)
     puts "Currently serving #{name}."
     array.shift
   end
+
+def take_a_number(array, name)
+  array << name
+  "Welcome, #{name}. You are currently number #{array[name]} in line."
+end
