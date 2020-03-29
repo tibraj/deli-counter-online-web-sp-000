@@ -6,7 +6,7 @@ def line(array)
   else
       array.each do |element|
       position = array[element].to_i + 1
-      puts "The line is currently: #{position}. #{element}"
+      puts "The line is currently: position. #{element}"
     end
   end
 end
