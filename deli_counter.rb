@@ -10,7 +10,7 @@ def line(array)
     end
   end
 
-  def now_serving(array, name)
+  def now_serving(array)
     if array.length == 0
       puts "There is nobody waiting to be served!"
     else
