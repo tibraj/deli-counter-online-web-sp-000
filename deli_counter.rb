@@ -21,4 +21,5 @@ def take_a_number(array, name)
   puts "Welcome, #{name}. You are currently number #{array[name].to_i} in line."
   else
     puts "There is nobody waiting to be served!"
+  end
 end
