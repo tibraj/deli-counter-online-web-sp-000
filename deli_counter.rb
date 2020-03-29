@@ -9,3 +9,8 @@ def line(array)
       end
     end
   end
+
+  def currently_serving(array, name)
+    puts "Currently serving #{name}."
+    array.shift
+  end
