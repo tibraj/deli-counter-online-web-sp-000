@@ -7,7 +7,7 @@ def line(array)
       counter = 0
       loop do
         counter += 1
-        puts "The line is currently: #{counter}. #{array[counter]}"
+        puts "The line is currently: #{counter + 1}. #{array[counter]}"
         if counter > array.length
           break
       end
