@@ -1,7 +1,12 @@
 # Write your code here.
 katz_deli = []
 def line(array)
-  array.each do |element|
-  puts "The line is currently: #{array.index + 1}. #{element}"
+  if array != []
+    array.each do |element|
+    puts "The line is currently: #{array.index + 1}. #{element}"
+  else
+    puts "The line is currently empty."
+  end
 end
-end
+
+def take_a_number
