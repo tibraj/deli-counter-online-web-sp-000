@@ -16,6 +16,9 @@ def line(array)
   end
 
 def take_a_number(array, name)
+  if array.length != 0
   array << name
-  "Welcome, #{name}. You are currently number #{array[name].to_i} in line."
+  puts "Welcome, #{name}. You are currently number #{array[name].to_i} in line."
+  else
+    puts "There is nobody waiting to be served!"
 end
