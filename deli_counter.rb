@@ -4,7 +4,7 @@ def line(array)
   if array != []
     array.each do |element|
     puts "The line is currently: #{array.index + 1}. #{element}"
-  else
+  elsif array == []
     puts "The line is currently empty."
   end
 end
